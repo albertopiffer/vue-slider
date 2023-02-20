@@ -3,11 +3,17 @@
     width: fit-content;
 }
 
+p, h4 {
+    line-height: 30px;
+    margin: 0;
+}
+
 #avanti {
     position: absolute;
     color: white;
     top: 50%;
     right: 20px;
+    transform: translateY(+30px);
 }
 
 #indietro {
@@ -15,4 +21,5 @@
     color: white;
     top: 50%;
     left: 20px;
+    transform: translateY(+30px);
 }
