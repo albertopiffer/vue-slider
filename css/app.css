@@ -1,0 +1,20 @@
+#container {
+    position: relative;
+    width: fit-content;
+}
+
+#avanti {
+    position: absolute;
+    color: white;
+    top: 50%;
+    right: 20px;
+    transform: translateY(+30px);
+}
+
+#indietro {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 20px;
+    transform: translateY(+30px);
+}
